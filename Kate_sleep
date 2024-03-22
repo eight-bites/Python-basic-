@@ -1,0 +1,7 @@
+X = int(input())
+H = int(input())
+M = int(input())
+time_to_sleep = H*60+M
+time_for_ringer = X + time_to_sleep
+print(time_for_ringer // 60)
+print(time_for_ringer % 60)
