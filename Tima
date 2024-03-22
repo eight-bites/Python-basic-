@@ -1,0 +1,3 @@
+X = input()
+Y = input()
+print(X*60+Y)
